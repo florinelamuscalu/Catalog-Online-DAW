@@ -48,7 +48,7 @@ export function tokenGetter() {
     UsersComponent,
     MessageFormComponent,
     SubjectsComponent,
-    MarksSubjectListComponent
+    MarksSubjectListComponent,
     UpdateUserComponent,
   ],
   imports: [
