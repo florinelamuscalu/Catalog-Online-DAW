@@ -69,7 +69,7 @@ export function tokenGetter() {
       { path: 'users', component: UsersComponent },
       { path: 'message-form', component: MessageFormComponent },
       { path: 'subjects', component: SubjectsComponent },
-      { path: 'marksSubject', component: MarksSubjectListComponent }
+      { path: 'marksSubject', component: MarksSubjectListComponent },
       { path: 'updateUser', component: UpdateUserComponent },
     ]),
     BrowserAnimationsModule,

@@ -5,7 +5,6 @@ COPY ./ClientApp/package*.json ./
 
 RUN npm install
 
-
 COPY ./ClientApp ./
 
 RUN npm run build
@@ -28,5 +27,5 @@ WORKDIR /app
 COPY --from=build /app/build .
 COPY --from=client /app/ClientApp/dist ./ClientApp/dist
 
-EXPOSE 80
+EXPOSE 5001
 ENTRYPOINT ["dotnet", "Catalog Online.dll"]
